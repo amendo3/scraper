@@ -24,13 +24,6 @@ author2 = authors.find('span', class_= 'css-1baulvz last-byline').text
 print(f'Authors: {author1} and {author2}')
 print('----------')
 
-#article = soup.select_one('section[name="articleBody"]').get_text(strip=True)
-#print(article)
-#for i in soup.findAll('small'):
-    #if i.text == "" or "&nbsp;" in i.text:
-        #i.string = '-'
-#print soup
-
 # for item in soup.select('.StoryBodyCompanionColumn'):
 #     try:
 #         para = item.find_all('p')
